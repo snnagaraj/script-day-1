@@ -9,47 +9,57 @@
 
 <html>
 <body>
+      <!-- push method -->
+	  <h1>Array</h1><br><br>
+	  
+	  <h3>push</h3>
+	  <p>push method is adding the array last value.</p>
+	  
+      <h3>pop</h3>
+      <p>pop method is removing the last value off array</p>
+	  
+      <h3>unshift</h3>
+      <p>unshift method is add the first value off array</p>
+
+      <h3>shift</h3>
+      <p>shift method is remove the first value of array</p>
+
+      <h3>splice</h3>
+      <p>splice method is removing the middle value is array</p>	  
+	  
+	
 <script>
 <!-- push -->
 
-var marks=[];
-marks.push(67);
-marks.push(84);
-marks.push(93);
-marks.push(95);
-marks.push(86);
-marks.push(56);
+var marks=[2,4,6,8];
+marks.push(10,12);
 console.log(marks);
-
-<!-- index of -->
-
-var fruits=[];
-fruits.indexOf(4);
-fruits.indexOf(6);
-fruits.indexOf(7);
-fruits.indexOf(8);
-console.log(fruits);
-
-<!-- last indexof -->
-
-var flower=[];
-flower.lastIndexOf(0.2);
-flower.lastIndexOf(5);
-flower.lastIndexOf(8);
-flower.lastIndexOf(9);
-flower.lastIndexOf(22);
-console.log(flower);
 
 <!-- pop -->
 
-var a=[2,3,2]
-a.pop(1);
-a.pop(2);
-a.pop(2);
-a.pop(3);
-a.pop(4);
+var a=[1,2,3,4,5,6];
+a.pop(6);
 console.log(a);
 
+<!-- unshift -->
+
+var b=[7,4,0,3];
+b.unshift(4.5);
+b.unshift(20);
+console.log(b);
+
+<!-- shift -->
+
+var c=[20,4.5,7,4,0,3];
+c.shift();
+c.shift();
+console.log(c);
+ 
+<!-- splice -->
+
+var d=[1,2,3,4,5,6,7];
+d.splice(5);
+console.log(d);
 
 
 </script>
