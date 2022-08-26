@@ -10,87 +10,18 @@
 <html>
 <body>
 <script>
-    <!-- javascript oprators -->
-	<!-- assignment oprator -->
-	<!-- equal -->
-	let a=10
-	let b=20
-	let c=a=b
-	console.log(c);
-	
-	<!-- add -->
-	let d=20
-	let e=30
-	let f=d+=e
-	console.log(f);
-	
-	<!-- sub -->
-     let g=35
-	 let h=10
-	 let i=g-=h
-	 console.log(i);
-	 
-	 <!-- multiply -->
-	 let j=8
-	 let k=5
-	 let l=j*=k
-	 console.log(l);
-	 
-	 <!-- divide -->
-	 let m=40
-	 let n=4
-	 let o=m/=n
-	 console.log(o);
-	 
-	 <!-- module -->
-	 let p=10
-	 let q=4
-	 let r=p%=q
-	 console.log(r);
-	 
-	 
-	 
-	 <!-- ingrement/decrement oprator -->
-	 <!-- increment oprator -->
-	 let x=3
-	 let y=++x;
-	 let z=x++;
-	 console.log(y);
-	 console.log(z);
-	 
-	 <!-- decrement oprator -->
-	 let s=8
-	 let t=s--;
-	 let u=s--;
-	 console.log(t);
-	 console.log(u);
-	 
-	 <!-- prefix and postfix -->
-	 v=5
-	 ++v;
-	 w=9
-	 --w;
-	 console.log(v);
-	 console.log(w);
-	 
-	 
-	 
-	 <!-- js date convert -->
-	 <!-- Get-->
-	 var date= new Date();
-	 date.getMonth();
-	 console.log(date.getMonth());
-	 
-	 var month= new Date();
-	 month.getDate();
-	 console.log( month.getDate());
-	 
-	 
-	 
-	 const event = new Date('August 19, 1975 23:15:30');
-     event.setMonth(3);
-     console.log(event.getMonth());
-	 
+  var date= new Date();
+  var month=date.toLocaleString();
+  console.log(month);
+  
+  var time= new Date();
+  var day=time.toISOString();
+  console.log(day);
+  
+  
+  let x=5
+      x=++x;
+	  console.log(x);	 
 </script>
 </body>
 </html>
