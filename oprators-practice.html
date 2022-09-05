@@ -5,30 +5,113 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-
 <html>
 <body>
 <script>
    
-   var date=new Date();
+   /*var date=new Date();
    var time=date.setTime(10);
    console.log(time);
-   if(time<=12){
-   console.log("good morning");
-   }
-   else{
+   if(time<=12){  
    console.log("good evening");
    }
+    else{
+   console.log("good morning");
+   }
+  
+
+
+  var number=prompt("Enter The Number");
+   if(number % 10 == 7 || number % 7 == 0){
+    console.log("It is bus number");
+   }
+   else{
+   console.log("It is not bus number");
+   }
    
-   const number = prompt("Enter a number: ");
-   if(number % 7 == 0) {
-    console.log("even");
+   
+   let mobile=50
+   
+   switch(true){
+      
+	  case(mobile > 10):
+	  console.log("android mobile");
+	  break;
+	  
+	  
+	  case(mobile < 60):
+	  console.log("i phone");
+	  break;
+   
+      case(mobile>5 && 10<mobile):
+	  console.log("basic mobile");
+	  break;
+	  
+	  default:(mobile)
+	  console.log("go to home");
+   }*/
+   
+   
+   /*const number = prompt("Enter a number: ");
+   if (number > 0) {
+      console.log("The number is positive");
    }
    else {
-    console.log("odd");
+      console.log("The number is negative number or 0");
    }
-   
-   
+
+
+
+  const operator = prompt('Enter operator ( either +, -, * or / ): ');
+  const number1 = parseInt(prompt('Enter first number: '));
+  const number2 = parseInt(prompt('Enter second number: '));
+
+  let result;
+
+  if (operator == '+') {
+    result = number1 + number2;
+  }
+   else if (operator == '-') {
+    result = number1 - number2;
+  }
+  else if (operator == '*') {
+    result = number1 * number2;
+  }
+  else {
+    result = number1 / number2;
+  }
+  console.log(result);*/
+  
+  
+  let a=4999
+  if(a<5000){
+  console.log('Eligible to increment 20%');
+  }
+  else{
+  console.log('Eligible to increment 10%');
+  }
+  
+  
+  
+  const tamil =parseInt(prompt("enter tamil mark"));
+  const english =parseInt(prompt("enter english mark"));
+  const maths =parseInt(prompt("enter maths mark"));
+  let total=300;
+  let per;
+  
+  if(prompt !==""){
+  per=((tamil+english+maths)/300*100)
+  console.log(per)
+  }if (per>=80){
+   console.log("A grade")
+  }else if(per>=50){
+  console.log("B grade");
+  }
+  else(per>=35){
+  console.log("C grade");
+  }
+  
+  
    
 </script>
 </body>

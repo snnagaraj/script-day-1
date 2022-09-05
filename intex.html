@@ -46,10 +46,10 @@
 
     let p=40
     let q=30
-    let s=1/2*(b*h]]);
+    let s=1/2*(b*h);
     console.log(s);
 	
-	/*calculate simple intrest*/
+	/*calculate square*/
 	
 	const number = prompt('Enter the number: ');
     const result = Math.sqrt(number);
@@ -70,6 +70,25 @@
     y = temp;
     console.log(x);
     console.log(y);
+	
+	/*program for larger number*/
+	
+    const num1 = parseFloat(prompt("Enter first number: "));
+    const num2 = parseFloat(prompt("Enter second number: "));
+    const num3 = parseFloat(prompt("Enter third number: "));
+    let largest;
+
+    if(num1 >= num2 && num1 >= num3) {
+    largest = num1;
+    }
+    else if (num2 >= num1 && num2 >= num3) {
+    largest = num2;
+    }
+    else {
+    largest = num3;
+    }
+
+    console.log("The largest number is " + largest);
 	
 	
 	
